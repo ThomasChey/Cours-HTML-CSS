@@ -1,0 +1,29 @@
+#conteneur
+{
+    width: 80%;
+    background: white;
+    margin: 0 auto;
+}
+header
+{
+    background: darkred;
+    width: 80%;
+    height:70px;
+}
+.gauche
+{
+    background: darkblue;
+    height: 530px;
+    width: 150px;
+}
+.milieu
+{
+    background: darkgreen;
+    width: 650px;
+    height: 530px;
+}
+section
+{
+    display: flex;
+    
+}

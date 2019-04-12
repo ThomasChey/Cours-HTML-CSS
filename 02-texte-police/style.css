@@ -1,0 +1,36 @@
+@font-face
+{
+    font-family: 'Action_Man';
+    src: url('police/Action_Man.ttf');
+}
+h1
+{
+    background: forestgreen;
+    color: darkblue;
+    font-size: 100px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body
+{
+    background: darkturquoise;
+}
+p
+{
+    font-family: 'Action_Man';
+}
+.class1
+{
+    color: red;
+    font-size: 50px;
+}
+.class2
+{
+    color: rgb(255, 0, 0);
+    font-size: 50px;
+}
+.class3
+{
+    color: green;
+    font-size: 50px;
+}

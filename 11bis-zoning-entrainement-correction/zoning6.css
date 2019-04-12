@@ -1,0 +1,61 @@
+.container
+{
+    width: 80%;
+    margin: 0 auto;
+    border: black solid ;
+}
+header
+{
+    background: blue;
+    width: 100%;
+    height: 10vh;
+}
+nav
+{
+    background: blueviolet;
+    width: 100%;
+    height: 5vh;
+}
+.A 
+{
+    background: rgb(223, 106, 11);
+    width:50%;
+    height: 40vh;
+}
+.B
+{
+    background: rgb(43, 226, 98);
+    width:50%;
+    height: 40vh;
+}
+.C 
+{
+    background: rgb(177, 8, 50);
+    width:50%;
+    height: 40vh;
+}
+.D 
+{
+    background: rgb(7, 182, 226);
+    width:50%;
+    height: 40vh;
+}
+.zone
+{
+    margin: 5px 5px 5px 5px ;
+}
+.A-B
+{
+    display: flex;
+    justify-content: center;
+}
+.C-D
+{
+    display: flex;
+    justify-content: center;
+}
+footer
+{
+    background: blue;
+    height: 10vh;
+}

@@ -1,0 +1,52 @@
+nav ul li 
+{
+    float: left; 
+    list-style: none;
+}
+nav ul ul
+{
+    display: none;
+    width: 150px;
+    left: 150px;
+    position: absolute;
+    top: -1px;
+}
+nav li a
+{
+    text-decoration: none;
+    color: black;
+    padding: 4px 0 4px 0;
+    width: 150px;
+    display: block;
+}
+nav ul
+{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+nav ul.niveau1 li.sousmenu:hover ul.niveau2
+{
+    display: block;
+}
+nav li:hover
+{
+    background: lightgoldenrodyellow;
+    transition-duration: 0.7s;
+}
+nav li.sousmenu:hover
+{
+    background: lightgoldenrodyellow;
+}
+nav li
+{
+    background: grey;
+    position: relative;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
+nav
+{
+    width: 150px;
+}

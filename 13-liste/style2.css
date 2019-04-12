@@ -1,0 +1,50 @@
+body
+{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 13px;
+}
+.cote-gauche ul li
+{
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    padding: 10px;
+    width: 15vh;
+}
+.cote-gauche ul
+{
+    margin: 74px 0 0 0;
+}
+ul
+{
+    list-style: none;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+.cote-droit .transformation li
+{
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    padding: 10px;
+    width: 15vh;
+    text-align: center;
+}
+.liste1 li
+{ 
+    border-left: 1px solid black; 
+}
+ul:last-child
+{
+    border-bottom: 1px solid black;
+}
+.cote-droit .transformation ul:hover
+{
+    background: linear-gradient(to right, blue, white, red);
+    cursor: pointer;
+    transform: scale(1.5);
+    transition-duration: 2s;
+}
+#content
+{
+    margin: 70px 0 0 50px;
+}

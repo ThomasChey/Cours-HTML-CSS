@@ -1,0 +1,71 @@
+#content
+{
+    width: 80%;
+    height: 80vh;
+    margin: 0 auto;
+    flex-direction: column;
+    border: 2px solid black;
+}
+header
+{
+    background: purple;
+    width: 100%;
+    height: 10vh;
+}
+nav
+{
+    background: yellow;
+    width: 100%;
+    height: 3vh;
+}
+.block
+{
+    width: 100%;
+    height: 60vh;
+    flex-wrap: wrap;
+    display: flex;
+}
+.ab
+{
+    width: 25%;
+    height: 60vh;
+    flex-direction: column;
+}
+.a
+{
+    height: 30vh;
+    background: red;
+}
+.b
+{
+    height: 30vh;
+    background: rgb(245, 96, 96);
+}
+.middle
+{
+    width: 50%;
+    height: 60vh;
+    background: blue;
+}
+.cd
+{
+    width: 25%;
+    height: 60vh;
+    flex-direction: column;
+}
+.c
+{
+    height: 30vh;
+    background: green;
+}
+.d
+{
+    height: 30vh;
+    background: lightgreen;
+}
+footer
+{
+    width: 100%;
+    height: 7vh;
+    background: crimson
+}

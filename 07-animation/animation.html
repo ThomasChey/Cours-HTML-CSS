@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <title> Animation </title>
+        <link rel="stylesheet" href="style.css">
+
+        <style>   /*  possible de mettre le style ici mais pas a faire */
+            body
+            {
+                background: rgb(0, 255, 255, 0.50);
+            }
+            div
+            {
+                padding: 1em; /* 1 em environ = a 4/5 cm */
+                width: 20%;
+                background: rgb(108, 150, 32);
+                text-align: center;
+                animation: mymove 9s;
+                position: relative;
+                
+                
+            }
+            @keyframes mymove /* c'est une fonction que je vais declarer plus tard */
+            {
+                from
+                {
+                    left: 0px;
+                }
+                to
+                {
+                    left: 50%;
+                }
+            }
+            span img
+            {
+                height: 30vh;
+                width: 30%;
+                padding: 1em;
+                position: relative;
+                animation: mymove 9s;
+            }
+            @keyframes mymove
+            {
+                from{left: 0px;}
+                to{left: 50%;}
+            }
+        </style>
+
+
+    </head>
+    <body>
+        <span> <img src="img/image1.jpg"> </span>
+
+        <div> Zone de contenue </div>
+    </body>
+
+
+
+</html>

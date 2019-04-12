@@ -1,0 +1,40 @@
+#conteneur{
+background: #336699; width: 800px;
+}
+header{
+background: #ff5555; width: 800px; height: 70px;
+}
+section{display : flex; }
+.gauche{
+background: #5585ff; width: 150px; height: 530px;
+}
+.milieu{
+background: #55D87C; width: 500px; height: 530px;
+}
+.droite{
+background: #9f6f3f; width: 150px; height: 530px
+}
+
+/*
+---------------------
+Plusieurs moyens de styliser un élément :
+	par son id: #elem
+	par sa classe: .elem
+	par sa balise: balise 	
+---------------------
+MARGIN/PADDING :
+	margin/padding: 10px 9px 8px 7px; 10px en haut - 9px à droite - 8px en bas - 7px à gauche
+	margin/padding: 10px 7px; 10px en haut et en bas - 7px à gauche et à droite
+	margin/padding: 10px 9px 8px; 10px en haut - 9px à droite - 8px en bas.
+	margin/padding: 10px; 10px tout autour (haut, droite, bas, gauche).
+	padding-top/margin-top: 10px; top en haut
+	padding-right/margin-right: 10px; right à droite
+	padding-bottom/margin-bottom: 10px; bottom en bas
+	padding-left/margin-left: 10px; left à gauche
+---------------------
+Régle d'écriture :
+	div.zone{} veut dire "va me chercher la div qui possède la classe 'zone'".
+	div .zone{} veut dire "va me chercher la classe zone qui se trouve A L'INTERIEUR de la div (c'est l'espace qui change la signification).
+	.maclasse, .maclasse2{} : il y a des virgules, on applique le style sur plusieurs éléments.
+---------------------
+*/

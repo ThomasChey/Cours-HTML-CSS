@@ -1,0 +1,33 @@
+html, body, div, span, h1, p
+
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    text-decoration: none;
+}
+img
+{
+    height: 40vh; /* vh pour la hauteur ( 1vh = 10px */
+    width: 40%;   /* % pour la largeur */
+    margin: 15px;
+    border: 5px double black;
+    float: left;  /* effet flottant ( cote a cote ) */
+    transition: margin 0.5s;  /* durée de transition lorsque 
+                            l'on survole l'element ( hover ) */
+    opacity: 0.7;
+}
+div img:hover
+{
+    margin-top: 2px;   /* on modifie la marge lors du survol */
+    opacity: 1;
+    height: 50vh;
+    width: 50%;
+}
+body
+{
+    background: rgb(206, 255, 206);
+}

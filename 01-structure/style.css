@@ -1,0 +1,31 @@
+body
+{
+    background: grey;
+}
+header
+{
+    background: yellowgreen;
+    height: 100px; /* hauteur */
+}
+nav
+{
+    background: green;
+    height: 30px;
+}
+section
+{
+    background: whitesmoke;
+    height: 700px;
+    width: 1700px;  /* largeur */
+}
+div
+{
+    background: burlywood;
+    height: 200px;
+    width: 1700px;
+}
+footer
+{
+    background: yellowgreen;
+    height: 100px;
+}

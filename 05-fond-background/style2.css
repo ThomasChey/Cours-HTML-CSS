@@ -1,0 +1,32 @@
+html, body, div, span, h1, p
+
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    text-decoration: none;
+}
+.contenu
+{
+    background: #f6eadd;
+    width: 810px;
+    height: 510px;
+    margin: 0px auto;
+}
+.contenu2
+{
+    background: grey;
+    width: 800px;
+    height: 200px;
+    margin-left: 5px;
+}
+.contenu3
+{
+    background: black;
+    width: 800px;
+    height: 200px;
+    margin-left: 5px;
+}

@@ -1,0 +1,27 @@
+#diapo
+{
+    width: 30%; 
+    height: 20vh;
+    background: url(img/DBZ10.jpg);
+    animation: frame-animation 10s;
+    transition-timing-function: 5s;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+@keyframes frame-animation
+{
+    0%
+    {
+        background-position: 0px 0; 
+        -webkit-animation-timing-function: ease-out;
+        -moz-transition: all 0.5s;
+        -webkit-transition: all 0.5s;
+    }
+    100%
+    {
+        background-position: -1200px 0;
+        -webkit-animation-timing-function: ease-out;
+        -moz-transition: all 0.5s;
+        -webkit-transition: all 0.5s;
+    }
+}

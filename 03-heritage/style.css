@@ -1,0 +1,49 @@
+html, body, div, span, h1, p
+
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    text-decoration: none;
+}
+
+
+body
+{
+    background: burlywood;
+}
+h1
+{
+    font-size: 20px;         /*taille du texte */
+    text-align: center;      /*alignement*/
+    font-weight: bold;       /*gras*/
+    margin: 10px 9px 8px 7px; /*marge exterieur*/
+    padding: 20px;            /*marge intérieur*/
+    border: 2px solid;        /*bordure*/
+    border-color: rgb(50, 42, 165);
+    color: darkblue;
+    background: cyan;
+}
+p    /* en ajoutant une bordure, nous voyons que cet element prend toute la largeur, on dis qu'il est display block*/
+{
+    border: 1px solid;
+    background: plum;
+    height: 500px;
+    width: 800px;
+}
+span  /* en ajoutant une bordure, nous voyons que cet element prend uniquement la place dont elle a besoin, on dis qu'il est display inline*/
+{
+    text-align: center;
+    border: 1px solid;
+}
+div  /* en ajoutant une bordure, nous voyons que cet element prend toute la largeur, on dis qu'il est display block*/
+{
+    border: 1px solid;
+    width: 500px;
+    height: 500px;
+    background: coral;
+
+}

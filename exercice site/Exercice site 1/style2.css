@@ -1,0 +1,68 @@
+.content{
+    margin: 0 auto;
+}
+ul{
+    list-style: none;
+}
+ul li{
+   float: left;
+   
+}
+a{
+    text-decoration: none;
+}
+header{
+    height: 11vh;
+    margin-left: 23%;
+}
+.txt1{
+    height: 3vh;
+    background: cyan;
+    margin-right: auto;
+    margin-left: auto;
+    width: 112vh;
+}
+#accueil{
+    height: 3vh;
+    margin-right: auto;
+    margin-left: auto;
+    width: 112vh;
+}
+div .bandeau{
+    width: 112vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+.block{
+    display: flex;
+    justify-content: space-around;
+    height: 30vh;
+    margin: 0 auto;
+    width: 54%;
+
+
+}
+.clients, .fournisseurs, .partenaires{
+    width: 35vh;
+    border: 1px solid grey;
+    border-radius: 3%;
+}
+.title{
+    text-align: center;
+    background: lightskyblue;
+    height: 4vh;
+    margin: 0 auto;
+    padding: 0 auto;
+    vertical-align: auto;
+}
+section{
+    background-image: url(img/body-bg.png);
+    
+}
+footer{
+    margin-right: auto;
+    margin-left: auto;
+    width: 112vh;
+    padding: 8px;
+}
+

@@ -1,0 +1,46 @@
+video{
+position: fixed;
+top: 0;
+left: 0;
+min-width: 100%;
+min-height: 100%;
+z-index: -1000;
+background: url(assets/videoBackground.jpg) no-repeat;
+background-size: cover;
+/* width: auto; height: auto; */
+}
+div{
+font-family: arial;
+background: rgba(255,255,255,0.3);
+width: 500px;
+min-height: 300px;
+float: right;
+margin: 150px 0 0 0;
+padding: 20px;
+border-radius: 10px;
+border: 1px solid #c0c0c0;
+}
+/*
+Video: background cela permet d'éviter un fond noir lorsque la première lecture se termine et que la 2e redémarre avec loop
+Video: cover cela permet au background de couvrir tout l'écran
+Video: position : fixed -- maintien la video fixée même si l'on descend dans la page web avec l'ascenceur (scroll).
+Video: top : 0 -- permet d'être à 0 pixel du haut et ainsi éviter un décalage.
+Video: left : 0 -- permet d'être à 0 pixel de la gauche et ainsi éviter un décalage.
+Video: min-width: 100% -- largeur minimum
+Video: min-height: 100% -- hauteur minimum
+Video: z-index : permet de définir une valeur qui détermine la position de l'élément au niveau de la superposition (premier plan, second plan).
+
+div : background: rgba -- permet d'avoir un fond atténué.
+div : width : largeur
+div : min-height: hauteur minimum
+div : float: élément flottant
+div : margin: marges ext.
+div : padding: marges int.
+div : border-radius: bordure arrondie
+div : border: bordure
+*/
+
+
+
+
+

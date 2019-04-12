@@ -1,0 +1,26 @@
+p
+{
+    color: red; /* tout les elements p */
+}
+
+p:nth-child(even)  /* element pair */
+{
+    color: rgb(255, 235, 58);
+}
+p:nth-child(odd)
+{
+    color: blue;
+}
+p:first-child
+{
+    color: green; /* 1er element p de la page général ou
+                     1er element p d'un parent */
+}
+p:nth-child(5)
+{
+    color: goldenrod;
+}
+p:nth-child(6)
+{
+    color: goldenrod;
+}

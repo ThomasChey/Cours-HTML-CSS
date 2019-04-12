@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1"> <!-- cette ligne est obligatoire pour faire ces tests smartphone en ligne -->
+	<link rel="stylesheet" href="style.css" />
+	<link rel="stylesheet" href="fontello/css/fontello.css" /> <!-- pour générer des icones en tant que police -->
+	<link href='http://fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css' />
+<link href='http://fonts.googleapis.com/css?family=Roboto:100,400' rel='stylesheet' type='text/css' /> 
+	<link href='http://fonts.googleapis.com/css?family=Glegoo' rel='stylesheet' type='text/css' />
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<header>
+		<div class="conteneur_header">
+			<div class="logo">
+				<a href=""><img src="image/logo_blanc.png" width=80 alt=""></a>
+			</div>
+			<h1>Logo et slogan</h1>
+			<div class="clear"></div>
+			<nav>
+				<a href="accueil.html" class="icon-home"></a>
+				<a href="blog.html">Blog</a>
+				<a href="actu.html">Actualité</a>
+				<a href="forum.html">Forum</a>
+				<a href="contact.html">Contact</a>
+				<div class="clear"></div><!-- pour arreter le float des a (ce float c'est pour le conteneur div parent)  -->
+			</nav>
+		</div>
+		<!--<form id="search" method="post">
+			<div class="btn-left-loupe"></div>
+			<input class="search_data" name="saisie" type="text" placeholder="Mots-Clefs..." required />
+			<input class="btn-right-fleche" name="go" type="submit" value="Rechercher" />
+		</form> -->
+	</header>
+
+	<div id="conteneur">
+		<div id="conteneur_gauche">
+			<div id="derniers_articles">
+				<h2><span class="icon-tablet"></span> Derniers tests à ne pas rater</span></h2>
+				<div class="bloc_derniers_articles">
+					<a href=""><img src="image/Retro-wallpape.jpg" alt=""></a>
+					<p>Lorem ipsum dolor sit amet</p>
+
+				</div>				
+				<div class="bloc_derniers_articles">
+					<a href=""><img src="image/pomme.png" alt=""></a>
+					<p>Unde, quos?</p>
+				</div>				
+				<div class="bloc_derniers_articles">
+					<a href=""><img src="image/google.jpg" alt=""></a>
+					<p>Koko ipsum dolor sit amet</p>
+				</div>				
+				<div class="bloc_derniers_articles">
+					<a href=""><img src="image/retro311.jpg" alt=""></a>
+					<p>Ali ipsum dolor sit amet</p>
+				</div>		
+			</div>
+			<div class="clear"></div>
+			<h2><span class="icon-globe"></span> Derniers articles à ne pas rater</h2>	
+			<section>				
+					<article>
+						<h3>Article 1 <span class="icon-mobile"><!-- icone generé via fontello grace a @fontface --></h3>
+						<div class="conteneur_article_image">	
+							<img src="image/google.jpg" width=110>
+						</div>							
+						<p>Rorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, aliquid, temporibus aut atque voluptatem voluptatibus sed cupiditate hic alias eveniet necessitatibus tempore molestias ducimus in recusandae quod at? Unde, quos? ... <a href=""><i>Lire la suite</i></a></p>
+						<div class="clear"></div>
+						<div class="conteneur_article_icone">
+							<ul>
+								<li class="twitter"><a href="">Tweetez l'article</a></li>
+								<li class="facebook"><a href="">Partagez sur Facebook</a></li>
+								<li class="google"><a href="">Partagez sur Google+</a></li>
+							</ul>
+							<div class="clear"></div>						
+						</div>
+
+					</article>
+					<div class="clear"></div>
+					<article>
+						<h3>Article 2</h3>
+						<div class="conteneur_article_image">	
+							<img src="image/nintendo.jpg" width=110>
+						</div>							
+						<p>Iorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, aliquid, temporibus aut atque voluptatem voluptatibus sed cupiditate hic alias eveniet necessitatibus tempore molestias ducimus in recusandae quod at? Unde, quos? ... <a href=""><i>Lire la suite</i></a></p>
+						<div class="clear"></div>
+						<div class="conteneur_article_icone">
+							<ul>
+								<li class="twitter"><a href="">Tweetez l'article</a></li>
+								<li class="facebook"><a href="">Partagez sur Facebook</a></li>
+								<li class="google"><a href="">Partagez sur Google+</a></li>
+							</ul>
+							<div class="clear"></div>						
+						</div>
+					</article>
+					<article>
+						<h3>Article 3</h3>
+						<div class="conteneur_article_image">	
+							<img src="image/otis.jpg" width=110>
+						</div>							
+						<p>Torem ipsum dolor sit amet, consectetur adipisicing elit. Totam, aliquid, temporibus aut atque voluptatem voluptatibus sed cupiditate hic alias eveniet necessitatibus tempore molestias ducimus in recusandae quod at? Unde, quos? ... <a href=""><i>Lire la suite</i></a></p>
+						<div class="clear"></div>
+						<div class="conteneur_article_icone">
+							<ul>
+								<li class="twitter"><a href="">Tweetez l'article</a></li>
+								<li class="facebook"><a href="">Partagez sur Facebook</a></li>
+								<li class="google"><a href="">Partagez sur Google+</a></li>
+							</ul>
+							<div class="clear"></div>						
+						</div>
+					</article>
+					<div class="clear"></div>
+			</section>
+			<div class="clear"></div>
+		</div>
+		<aside>	
+			<div class="module">
+			<h2>Suivez Nous</h2>
+					<ul>
+						<li><a href="#"><img src="image/social/PNG/24/picons03.png" alt=""><span>Suivez nous sur <i>Twitter</i></span></a></li>
+						<li><a href="#"><img src="image/social/PNG/24/picons06.png" alt=""><span>Suivez nous sur <i>Facebook</i></span></a></li>
+						<li><a href="#"><img src="image/social/PNG/24/picons40.png" alt=""><span>Suivez nous sur <i>Google+</i></span></a></li>
+					</ul>	
+			</div>
+			<div class="module">
+				<h2>Categorie <a href="#">Voir</a></h2>
+				<ul>
+				   <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+				   <li>Aliquam tincidunt mauris eu risus.</li>
+				   <li>Vestibulum auctor dapibus neque.</li>
+				</ul>
+			</div>
+			
+			<div class="module">
+				<h2>Commentaires <span ></span> <a href="#">Voir</a></h2>
+				<ul>
+				   <li>Lorem ipsum dolor sit amet ...<span class="icon-comment-1"></span></li>
+				   <li>Aliquam tincidunt mauris eu risus ...<span class="icon-comment-1"></span></li>
+				   <li>Vestibulum auctor dapibus neque... <span class="icon-comment-1"></span></li>
+				</ul>
+			</div>
+			
+			<div class="module">
+				<h2>Tests <a href="#">Voir</a></h2>
+				<ul>
+				   <li><span class="icon-mobile"> Lorem ipsum dolor sit amet. </li>
+				   <li><span class="icon-tablet"> Aliquam tincidunt mauris eu risus. </li>
+				   <li><span class="icon-laptop"> Vestibulum auctor dapibus neque. </li>
+				</ul>
+			</div>
+	       
+		</aside>
+		<div class="clear"></div>
+
+	</div>
+	<footer>
+		<div>
+			<a href="">Mentions legales</a> | <a href="">Plan du site</a> | <a href="">Contact</a>
+		</div>
+	</footer>	
+
+</body>
+</html>

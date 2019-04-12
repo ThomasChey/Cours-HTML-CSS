@@ -1,0 +1,190 @@
+*{
+	padding:0;
+	margin: 0;
+}
+
+#conteneur{
+	font-family: georgia;
+}
+
+header{
+	width:1000px;
+	margin: 0 auto;
+}
+
+.entete img{
+	width:156px;
+	height:105px;
+	background-color: white;
+	height: 100px;
+}
+
+.menu1{
+	display:flex;
+	justify-content: space-between;
+	margin-bottom: 10px;
+
+}
+
+.menu1 span{
+	margin-left: 10px;
+	font-style: italic;
+	font-size: 12px;
+}
+
+.menu1 img{
+	width:17px;
+	height:16px;
+
+
+}
+
+li{
+	display: inline-block;
+}
+ul{
+	font-size: 15px;
+
+	
+}
+ul li a{
+	text-decoration: none;
+	color: black;
+	border-radius: 5px;
+	font-family: georgia;
+	padding: 8px;
+	
+
+	
+}
+
+ul li a:hover{
+	background-color: #3db1ce;
+	color: white;
+
+}
+
+.background{
+	background: url('../img/bandeau3.jpg');
+	width:1000px;
+	height: 400px;
+	margin:0 auto;
+}
+
+.corps_page{
+	background: url('../img/body-bg.png');
+	margin: 0 auto;
+}
+
+.slogan p {
+	background-color: #3db1ce;
+	width:1000px;
+	margin: 0 auto;
+	color: white;
+
+
+
+}
+
+
+.slogan2 p{
+	width:1000px;
+	margin: 0 auto;
+	color: #3db1ce;
+	margin-top: 10px;
+
+}
+
+.slogan2 img{
+	width: 14px;
+	height:14px;
+}
+
+.contenu{
+	margin:0 auto;
+	width:1000px;
+	margin-top: 30px;
+	display:flex;
+	justify-content: space-between;
+
+
+}
+
+.article{
+	display: flex;
+	flex-direction: column;
+	background-color:white;
+	margin-bottom: 50px;
+
+
+}
+
+.texte{
+	text-align: center;
+	height:20px;
+	border: 1px solid lightgrey;
+	border-radius: 3px;
+	border-radius-bottom: none;
+	background-color: #aee2e2;
+	padding: 3px;
+	color:#333;
+}
+
+.img{
+	padding:5px;
+
+	
+}
+
+.mots{
+	width:275px;
+	text-align: left;
+	background-color: white;
+	font-size: 16px;
+	padding: 5px;
+
+
+}
+
+.mots a{
+	font-size: 13px;
+}
+
+.lien{
+	color:#333;
+	font-size: 13px;
+	height:20px;
+	border: 1px solid lightgrey;
+	background-color: white;
+	padding:10px;
+
+	
+}
+
+.lien1{
+	background-color: #aee2e2;
+	font-weight: bold;
+	height:20px;
+	border: 1px solid lightgrey;
+	color:black;
+	font-size: 13px;
+	padding: 10px;
+	
+}
+
+footer{
+	width:1000px;
+	margin: 0 auto;
+	height:100px;
+	margin-top: 20px;
+}
+
+.footer ul li a{
+	padding:1px;
+	font-size: 12px;
+	color:#3db1ce;
+}
+
+.footer ul li a:hover{
+	color:white;
+}

@@ -1,0 +1,100 @@
+body
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 13px;
+    background: linear-gradient(to right, rgb( 133, 193, 233),rgb( 41, 128, 185));
+}
+div
+{
+    background: rgb(219, 138, 72);
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    margin: 1%;
+    color: rgb(93, 211, 195);
+    font-size: 25px;
+}
+h1
+{
+    text-align: center;
+}
+section
+{
+    border: 2px solid red;
+    padding: 10px;
+}
+/*  La propriété flex est une propriété raccourcie qui définit
+ la capacité d'un élément flexible à modifier ses dimensions
+  afin de remplir l'espace disponible de son conteneur */
+
+    /*************************** Exercice 1 ***************************/
+  .container1
+  {
+      display: flex; 
+      width: 960px;
+      margin: 0 auto;
+  }
+  .item1
+  {
+      flex: auto; /* les éléments a l'interieur de .container1
+                   vont avoir une largeur proportionnelle au conteneur */
+      border: 2px solid darkblue;
+      color: rgb(127, 219, 241);
+  }
+
+  /*************************** Exercice 2 ***************************/
+  .container2
+  {
+      display: flex;
+      width: 960px;
+      margin: 0 auto;
+  }
+  .item2-1
+  {
+      width: 50vh;
+  }
+  .item2
+  {
+    flex: auto;
+    flex-grow: 1; /* grace a flex grow, les elements prennent la place restante  
+                       par rapport au chiffre indiqué ( 1 = 1er element ),
+                       a besoin qu'un block ai une taille défini*/
+    color: rgb(127, 219, 241);
+    border: 2px solid darkblue;
+  }
+    
+  /*************************** Exercice 8 ***************************/
+  .container8
+  {
+      display: flex;
+      flex-direction: column;
+      width: 960px;
+      height: 500px; 
+      margin: 0 auto;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+  }
+  .item8
+  {
+      width: 150px;
+      color: rgb(127, 219, 241);
+      border: 2px solid darkblue;
+  }
+
+   /*************************** Exercice 4 ***************************/
+
+   .container4
+   {
+       display: flex;
+       width: 960px;
+       margin: 0 auto;
+       justify-content: flex-start; /* possible avec flex-start, flex-end, center, space-between, space-around ( space-evenly aussi ) */
+   }
+   .item4
+   {
+       width: 150px;
+       color: rgb(127, 219, 241);
+       border: 2px solid darkblue;
+   }
+   

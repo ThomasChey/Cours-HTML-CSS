@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Action_Man';
+    src: url('police/Action_Man.ttf');
+}
+table
+{
+    width: 70vh;
+    height: 10vh;
+    margin: 0 auto;
+    border-collapse: separate; /* border collapse sert a géré le positionnement des cellules ( separate, collapse .. ) */
+    border-spacing: 10px; /* modifie l'espacement du separate */
+    font-family: 'Action_Man';
+    background-image: url(img/img1.jfif);
+    color: white;
+    background-color:rgba(0, 0, 0, 0.5);
+}
+th
+{
+    background: orangered;
+}
+td, th
+{
+    padding: 7px;
+    border: 1px solid blue;
+    text-align: center;
+}

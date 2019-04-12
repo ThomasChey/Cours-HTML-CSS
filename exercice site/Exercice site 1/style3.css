@@ -1,0 +1,73 @@
+.navmenu, .basdepage, .milieu
+{
+    width: 50%;
+    margin: 0 auto;
+}
+section
+{
+    background: url('img/body-bg.png');
+    height: 80vh;
+}
+.lienmenu
+{
+    justify-content: space-between;
+    margin-left: 15px;
+    display: flex;
+}
+.navlien{
+    display: flex;
+    justify-content: space-between;
+}
+.lien{
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+}
+.b{
+    background: cyan;
+}
+.block{
+    border: grey 1px solid;
+    border-radius: 3%;
+    width: 30%;
+    height: 31vh;
+    background: white;
+    display: block;
+}
+.d{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.daa, .dba, .dca{
+    background: lightskyblue;
+    text-align: center;
+    height: 3.5vh;
+    border-bottom: grey 1px solid;
+}
+.dac, .dbc, .dcc{
+    height: 3.5vh;
+    border-top: grey 1px solid;
+    text-align: center;
+}
+.dad, .dbd, .dcd{
+    height: 3.5vh;
+    border-top: grey 1px solid;
+    text-align: center;
+}
+.lien a{
+    color: black;
+}
+.c a{
+    color: rgb(30, 221, 255);
+}
+.dac:hover, .dbc:hover, .dcc:hover, .dad:hover, .dbd:hover, .dcd:hover{
+    background: lightskyblue;
+    cursor: pointer;
+}
+.lien a:hover{
+    background: cyan;
+    border:lightgray 1px solid;
+    border-radius: 5px;
+}

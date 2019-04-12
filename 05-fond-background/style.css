@@ -1,0 +1,36 @@
+html, body, div, span, h1, p
+
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    text-decoration: none;
+}
+body
+{
+    background: black url(img/images2.jpg) no-repeat;
+    background-size: cover;
+    /* cover veut dire couvrir tout l'ecran peut importe la 
+    taille de l'ecran cependant il est important de choisir
+    une bonne taille d'img pour eviter la pixelisation */
+}
+.contenue
+{
+    background-color: rgb(0, 255, 255, 0.26);
+    width: 800px;
+    height: 500px;
+    margin: 200px auto 0 auto; /* fonctionne dans le sens des
+                                aiguilles d'une montre, 
+                                en commençant par le haut */
+    padding: 10px;
+}
+.contenue p
+{
+    position: relative; /* permet de centrer au milieu, 
+                        fonctionne avec Top*/
+    top: 50%;
+    text-align: center;
+}

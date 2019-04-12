@@ -1,0 +1,46 @@
+body{
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+}
+#conteneur{
+    width: 80%;
+    height: 80vh;
+    margin: 0 auto;
+    border: 2px solid red;
+    display: flex;
+}
+.nav1{
+    background: orangered;
+    width: 10%;
+    height: 80vh;
+}
+header{
+    background: green;
+    width: 100%;
+    height: 10vh;
+}
+article{
+    background: gray;
+    width: 100%;
+    height: 60vh;
+}
+.nav2{
+    background: orangered;
+    width: 10%;
+    height: 80vh;
+}
+footer{
+    background: green;
+    width: 100%;
+    height: 10vh;
+}
+.a{
+    width: 100%;
+    height: 80vh;
+    display : flex;
+    flex-wrap: wrap;
+}
+
+
+

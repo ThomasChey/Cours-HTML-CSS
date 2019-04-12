@@ -1,0 +1,77 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Formulaire</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+</head>
+<body>
+    <h1> Formulaire </h1>
+
+    <br><hr>
+
+    <form method="POST" action="" enctype="">
+
+        <label for="pseudo">Pseudo</label>
+        <input type="text" id="pseudo" name="pseudo" required>
+
+        <br><hr>
+
+        <label for="mdp">Mot de Passe</label>
+        <input type="password" id="mdp" name="mdp" required>
+
+        <br><hr>
+
+        <label for="email">Adresse Email</label>
+        <input type="email" id="email" name="email" required>
+
+        <br><hr>
+
+        <label for="avatar">Avatar</label>
+        <input type="file" id="avatar" name="avatar">
+
+        <br><hr><br>
+
+        <label for="pays">Pays</label>
+            <select id="pays" name="pays">
+                <optgroup label="Europe">
+                    <option value="fr" selected>France</option> <!-- selected met le choix prédéfini -->
+                    <option value="it">Italie</option>
+                    <option value="es">Espagne</option>
+                </optgroup>
+            </select>
+
+        <br><hr><br>
+
+        <label for="choix">Quel sont vos fruits préférer ?</label>
+         <input type="checkbox" name="choix"> Orange
+         <input type="checkbox" name="choix"> Fraise
+         <input type="checkbox" name="choix"> Poire
+
+         <br><hr><br>
+
+         <label for="choix">Quel est votre fruit préférer ?</label>
+         <input type="radio" name="choix"> Orange
+         <input type="radio" name="choix"> Fraise
+         <input type="radio" name="choix"> Poire
+
+         <br><hr><br>
+
+         <label for="cp"> Code Postale </label>
+         <input type="number" id="cp" name="cp" maxlength="5" pattern="[0-9]{5}">
+
+         <br><hr><br>
+
+         <label for="adresse"> Adresse </label>
+         <textarea id="adresse" name="adresse" rows="5" cols="25"></textarea>
+
+         <br><hr><br>
+
+         <input type="submit" name="inscription" value="S'inscrire"> <!-- Crée un bouton -->
+
+
+
+    </form>
+    
+</body>
+</html>

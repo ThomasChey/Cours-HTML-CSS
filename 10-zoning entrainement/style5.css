@@ -1,0 +1,90 @@
+body
+{
+    margin: 0;
+}
+#conteneur
+{
+    width: 70%;
+    height: 80vh;
+    border: 3px black solid;
+    margin: 0 auto;
+    text-align: center;
+}
+header
+{
+    background: cyan;
+    width: 100%;
+    height: 7vh;
+}
+nav
+{
+    background: purple;
+    width: 100%;
+    height: 3vh;
+}
+.blanc
+{
+    background: white;
+}
+.milieu
+{
+    background: yellow;
+    width: 100%;
+    height: 60vh;
+}
+footer
+{
+    background: cyan;
+    width: 100%;
+    height: 5.5vh;
+}
+.a
+{
+    background: crimson;
+    width: 50%;
+    height: 30vh;
+}
+.b
+{
+    background: darkblue;
+    width: 50%;
+    height: 30vh;
+}
+.c
+{
+    background: yellow;
+    width: 50%;
+    height:30vh;
+}
+.d
+{
+    background:green;
+    width: 50%;
+    height: 30vh;
+}
+section
+{
+    display: flex;
+    padding: 20px;
+}
+.a1
+{
+    display: flex;
+}
+.a2
+{
+    display: flex;
+}
+
+/******************************************Reponsive adaptatif*************************************/
+
+@media screen and (max-width: 900px){
+	#conteneur{ width: 80%;}
+    .a, .b, .c, .d{ width: 60%; }
+}
+@media screen and (max-width: 600px){
+	#conteneur{ width: 80%; height: 81vh}
+    .a, .b, .c, .d{ width: 100%; height: 15vh; }
+    .a1, .a2 { flex-direction: column;}
+    footer { height: 6.5vh;}
+}

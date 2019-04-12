@@ -1,0 +1,96 @@
+body{
+    width: 100%;
+}
+.top{
+    width:50%;
+    margin: 0 auto;
+    display: flex;
+    height: 12vh;
+}
+.topleft{
+    display: flex;
+}
+.navmenu{
+    display: flex;
+    align-items: flex-end;
+}
+header{
+    border-bottom: 1.5px solid rgb(22, 135, 201);
+    height: 12vh;
+}
+.media{
+    font-size: 20px;
+    color: rgb(22, 135, 201);
+}
+.top .flag{
+    margin-left: 5.5vh;
+}
+.navmenu .button{
+    margin-left: 2vh;
+}
+.navmenu .button a{
+    text-decoration: none;
+    color: black;
+    font-size: 1vw;
+}
+.middle{
+    width: 50%;
+    margin: 0 auto;
+    background: url(img/degrade.jpg) repeat-x;
+    height: 70vh;
+    display: flex;
+    margin-top: 25px;
+}
+section .middle .introleft .txtmedia p{
+    font-size: 18px;
+}
+.actu, .actu1, .actu2, .actu3{
+    display: flex;
+}
+.actu h2, .inter h2{
+    font-size: 1.2vw;
+    color: rgb(22, 135, 201);
+}
+.actu1 p, .actu2 p, .actu3 p{
+   margin-top: 0;
+   border-bottom: 1px solid rgb(22, 135, 201);
+}
+.midleft{
+    width: 50%;
+    padding: 5px;
+}
+.actu1 img{
+    margin-top: 3px;
+}
+.midright{
+    width: 50%;
+    padding: 5px;
+    margin: 0 1vh 0 2vh;
+}
+.inter{
+    display: flex;
+    margin-top: 2vh;
+}
+.contact{
+    width: 90%;
+    text-align: center;
+    height: 3vh;
+    padding: 1vh;
+    background: rgb(3, 3, 3, 0.80);
+    border-radius: 15px;
+    font-size: 20px;
+    margin-left: 1vh;;
+}
+.contact a{
+    text-decoration: none;
+    color: white;
+}
+.contact:hover{
+    background: rgb(41, 39, 39, 0.70);
+}
+.videoyt{
+    padding: 15px;
+}
+.actu img, .inter img{
+    margin-top: 20px;
+}

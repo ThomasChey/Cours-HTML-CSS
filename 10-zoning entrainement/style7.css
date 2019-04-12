@@ -1,0 +1,50 @@
+body
+{
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+}
+#conteneur
+{
+    width: 80%;
+    height: 80vh;
+    margin: 0 auto;
+    flex-direction: column;
+    border : 2px solid red;
+    display: flex;
+    flex-wrap: wrap;
+}
+header
+{
+    background: green;
+    width: 80%;
+    height: 10vh;
+}
+footer
+{
+    width: 80%;
+    height: 10vh;
+    background: green;
+}
+nav
+{
+    background: orangered;
+    width: 20%;
+    height: 80vh;
+}
+.div1
+{
+    background: gray;
+    width: 60%;
+    height: 60vh;
+}
+.div2
+{
+    background: coral;
+    width: 40%;
+    height: 60vh;
+}
+.a
+{
+    display: flex;
+}

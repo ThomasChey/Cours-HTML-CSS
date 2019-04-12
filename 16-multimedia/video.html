@@ -1,0 +1,29 @@
+<!Doctype html>
+<html lang="fr">
+	<head>
+		<link rel="stylesheet" href="">
+	</head>
+	<body>
+			<h1>cic.ogv</h1>
+			<video preload controls poster="cic.gif"> <!-- 1. video ogv : 1 video avec 1 source -->
+				<source src="assets/cic.ogv" type="video/ogg">
+			</video>
+			
+			<h1>cic.webm</h1>
+			<video preload controls poster="cic.gif"> <!-- 2. video webm : 1 video avec 1 source -->
+				<source src="assets/cic.webm">
+			</video>
+			
+			<h1>cic.mp4</h1>
+			<video autoplay preload controls poster="cic.gif"> <!-- 3. video mp4 : 1 video avec 1 source -->
+				<source src="assets/cic.mp4">
+			</video>
+			
+			<h1>cic</h1>
+			<video preload controls poster="cic.gif"> <!-- 4. video ogv, webm, mp4 : 1 seule video avec 3 sources différentes-->
+				<source src="assets/cic.ogv" type="video/ogg">
+				<source src="assets/cic.webm">
+				<source src="assets/cic.mp4">
+			</video>
+	</body>
+</html>

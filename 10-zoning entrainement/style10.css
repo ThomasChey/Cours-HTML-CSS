@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+}
+#content{
+    margin: 0 auto;
+    width: 80%;
+    height: 80vh;
+    border: 2px solid black;
+}
+header{
+    background: purple;
+    width: 100%;
+    height: 10vh;
+    text-align: center;
+    font-size: 50px;
+}
+nav{
+    background: yellow;
+    width: 100%;
+    height: 5vh;
+    text-align: center;
+    font-size: 50px;
+}
+footer{
+    width: 100%;
+    background: crimson;
+    height: 7vh;
+    text-align: center;
+    font-size: 50px;
+}
+.a, .c, .e, .g, .i, .k, .m, .o, .q, .s{
+    width: 20%;
+    height: 14.5vh;
+    background: black;
+}
+.b, .d, .f, .h, .j, .l, .n, .p, .r, .t{
+    width: 20%;
+    height: 14.5vh;
+    background: beige;
+}
+.abc{
+    width: 100%;
+    height: 58vh;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    color: green;
+    font-size: 100px;
+
+}
